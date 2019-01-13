@@ -1,0 +1,231 @@
+/*
+Autor(a):Camila Silva dos Santos
+Data:13/01/2019
+Descrição: Processo Seletivo - Teste
+*/
+
+/* ajustando as telas para celulares e minis tablets*/
+@media (max-width: 800px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	/* botão volta aparecer */
+	label[for="bt_menu"]{
+		display: block;
+	}
+
+	/*designer do menu mobile */
+	.menu {
+		margin-top: 0px;
+		margin-right: -500%;
+		transition: all .4s;
+		visibility: none;
+	}
+
+	/*quando o botao do menu estiver flegado , os links apareceram */
+	#bt_menu:checked ~ .menu{
+		margin-top: 0px;
+		margin-right: 0px;
+		background-color: black;
+		width: 100%;
+		transition: all .6s;
+	}
+	/*formatando os links */
+	.menu ul li {
+		width: 100%;
+		float: none;
+		z-index: 2;
+	}
+	
+	.menu ul ul ul{
+		position: static;
+		overflow: hidden;
+		max-height: 0px;
+		transition: all .4s;
+		z-index: 2;
+		margin-left: 0px;
+	} 
+
+	.menu ul li:hover ul {
+		height: auto;
+		max-height: 300px;
+		z-index: 2;
+	}
+
+	/*escondendo o slide , imagem e barra azul*/
+	.gallery {
+		display: none;
+	}
+
+	body img {
+		text-align: center;
+		width: 100%;
+	}
+
+	.barra-azul {
+		width: 100%;
+		padding-top: 50px;
+		margin: 0px;
+		display: static;
+	}
+
+	.barra-azul p{
+		padding-left: 5px;
+		font-family: 8pt;
+		text-align: center;
+	}
+
+	.principal {
+		text-align: justify;
+		width: 100%;
+		margin: 5px;
+	}
+
+	.dev img{
+		display: none;
+	}
+
+	div{
+		width: 100%;
+	}
+
+	.texto {
+		width: 100%;
+		display: static;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.rodape{
+		width: 100%;
+	}
+
+	.conteudo {
+		width: 100%;
+		display: static;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.grid ul li {
+		margin-left: 0.8px;
+		margin-right: 30px;
+		display: none;
+		list-style-type: none;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.grid ul li img {
+		display: static;
+		width: 100%; 
+		opacity: 0.6; /*aplicar transparencia em 50% nas imagens*/
+	}
+
+	.grid h1 {
+		font-size: 15pt;
+		text-align: center;
+	}
+
+	.grid  {
+		margin-right: -15px;
+		padding-right: 40px;
+	}
+
+	.rodape{
+   		width: 100%;
+   		padding-top: 35px;
+	}
+
+	.rodape ul li{
+		font-size: 9pt;
+	}
+
+	.conteudo img{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+/*tablets*/
+@media (max-width: 1360px) {
+	.gallery {
+		display: none;
+	}
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.dev img{
+		display: none;
+	}
+
+		/* botão volta aparecer */
+	label[for="bt_menu"]{
+		display: block;
+	}
+
+	/*designer do menu mobile */
+	.menu {
+		margin-top: 0px;
+		margin-right: -500%;
+		transition: all .4s;
+		visibility: none;
+	}
+
+	/*quando o botao do menu estiver flegado , os links apareceram */
+	#bt_menu:checked ~ .menu{
+		margin-top: 0px;
+		margin-right: 0px;
+		background-color: black;
+		width: 100%;
+		transition: all .6s;
+	}
+	/*formatando os links */
+	.menu ul li {
+		width: 100%;
+		float: none;
+		z-index: 2;
+	}
+	
+	.menu ul ul ul{
+		position: static;
+		overflow: hidden;
+		max-height: 0px;
+		transition: all .4s;
+		z-index: 2;
+		margin-left: 0px;
+	} 
+
+	.menu ul li:hover ul {
+		height: auto;
+		max-height: 300px;
+		z-index: 2;
+	}
+
+	.barra-azul {
+		width: 100%;
+		padding-top: 80px;
+		margin: 0px;
+		display: static;
+	}
+
+	.barra-azul p{
+		padding-left: 5px;
+		font-family: 8pt;
+		text-align: center;
+	}
+
+		.principal {
+		text-align: justify;
+		width: 100%;
+		margin-left:150px;
+	}
+
+}

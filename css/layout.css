@@ -1,0 +1,156 @@
+/*
+Autor(a):Camila Silva dos Santos
+Data:13/01/2019
+Descrição: Processo Seletivo - Teste
+*/
+
+/*Pagina sem margem */
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "verdana";
+	color:#838383;
+}
+
+/* barra azul topo */
+.barra-azul {
+	background-color:#020087;
+	width: 100%;
+	display:inline-block;
+    padding-top: 5px;
+    /* padding-left: 1350px;*/
+}
+
+.barra-azul p{
+	color:white;
+	padding-left: 1305px;
+}
+
+/* menu lateral */
+.menu {
+	float:right;
+	display: block;
+	position: relative;
+	padding-top: 80px;
+	z-index: 2;
+}
+	
+/* Menu do site */
+.menu ul li {
+	float:left;
+	width:100px;
+	height:40px;
+	display: inline-block;
+	text-align:center;
+	line-height: 40px;
+	position: relative;
+}
+
+.menu ul li li {
+	background-color: #020085;
+}
+
+.menu ul li li a{
+	color:white;
+	font-family: "verdana";
+	font-size: 10pt;
+}
+
+/*quando o mouse passar por cima , o background do menu muda de cor */
+.menu ul li:hover{
+	background-color: #020085;
+	position: relative;
+}
+
+.menu ul a:hover{
+	color:white;
+}
+
+/*escondendo os submenus */
+.menu ul ul {
+	display: none;
+	background-color: #020085;
+	position: relative;
+}
+
+/*Quando passar o mouse por cima do menu , o submenu aparece */
+.menu ul li:hover > ul {
+	display: block;
+}
+	
+/*alocando o submenu 2 para a esquerda */
+.menu ul ul ul {
+	/*margin-left: 100px;*/
+	margin-left: 100px;
+	top:0px;	
+	position: absolute;
+}
+
+/*Removendo o hiperlink */
+.menu ul li a {
+	text-decoration: none;
+	color:gray;
+}
+
+/*Ajustando imagem */
+body img {
+	margin-right:500px;
+   	width: 270px;
+   	height: 80px;
+}
+
+/*formatando a sessÃ£o principal */
+.principal {
+	text-align: justify;
+	margin-left: 100px;
+	width: 1460px;
+	margin-top: 30px;
+}
+
+.conteudo {
+	width: 1700px;
+	display: table-cell; 
+}
+
+.dev img{
+	display: table; 
+	border:1px solid black;
+	float:right;
+	width:350px;
+	height: 208px;
+	margin-right: 100px;
+}
+
+.texto {
+	display: table-cell;
+}
+
+.texto h2{
+	font-size: 12pt;
+}
+
+.texto a {
+	color:blue;
+}
+
+/*botão ajustando o botão menu mobile */
+label[for="bt_menu"]{
+	padding: 5px;
+	background-color: #222;
+	color:#fff;
+	font-family: "Arial";
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+
+#bt_menu {
+	display: none;
+}
+
+label[for="bt_menu"]{
+display: none;
+}
+

@@ -1,0 +1,31 @@
+/*
+Autor(a):Camila Silva dos Santos
+Data:13/01/2019
+Descrição: Processo Seletivo - Teste
+*/
+/*formatando a grid de imagens  */
+
+section .grid {
+	margin-top: 50px;
+}
+
+
+.grid ul li {
+ 	display: inline-block;
+	list-style-type: none;
+	padding: 30px;
+}
+
+.grid ul li img {
+	display: inline-block;
+	margin-left: -25px;
+	margin-right: -25px;
+	width: 340px;
+	height: 200px;
+	opacity: 0.6; /*aplicar transparência em 50% nas imagens*/
+}
+
+.grid ul li img:hover{
+	opacity: 1;
+}
+/* fim grid */

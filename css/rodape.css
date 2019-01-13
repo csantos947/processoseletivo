@@ -1,0 +1,35 @@
+/*
+Autor(a):Camila Silva dos Santos
+Data:13/01/2019
+Descrição: Processo Seletivo - Teste
+*/
+
+/* rodape */
+
+.rodape{
+  background-color:#454545;
+  width: 100%;
+  padding-top: 35px;
+}
+
+.rodape ul li{
+  display:inline-block;
+  list-style-type: none;
+  padding:2px;
+  padding-bottom: 50px;
+}
+
+
+.rodape .links {
+  text-align: center;
+}
+
+.rodape .links a {
+  text-align: center;
+  color:#b9b9b9;
+  text-decoration: none;
+}
+
+.rodape .links a:hover {
+  color:white;
+}
