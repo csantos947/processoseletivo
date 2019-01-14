@@ -1,7 +1,7 @@
 # processo seletivo
 
 Projeto Desenvolvido:
-Parte 1 (navbar , slide , section principal e imagem lateral):
+Parte (navbar , slide , section principal e imagem lateral):
 Tempo do desenvolvimento:
 Estrutura HTML : 20 min
 Layout css : 3h30
