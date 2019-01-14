@@ -1,4 +1,4 @@
-# processoseletivo
+# processo seletivo
 
 Projeto Desenvolvido:
 Parte 1 (navbar , slide , section principal e imagem lateral):
